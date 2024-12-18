@@ -1152,6 +1152,7 @@ dependencies = [
  "parity-scale-codec",
  "sc-allocator",
  "sc-executor",
+ "sc-executor-wasmtime",
  "sp-core",
  "sp-externalities",
  "sp-runtime",
