@@ -58,6 +58,7 @@ cere-runtime-common = { workspace = true, optional = true }
 cere-dev-runtime = { workspace = true, optional = true }
 cere-runtime = { workspace = true, optional = true }
 
+cere-executor = { workspace = true }
 cere-runtime-interfaces = { workspace = true }
 
 [features]

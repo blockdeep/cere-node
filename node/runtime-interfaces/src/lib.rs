@@ -1,5 +1,5 @@
 use sp_runtime_interface::runtime_interface;
-use sp_wasm_interface::{Pointer, Value};
+use sp_wasm_interface::{Pointer, Result as SandboxResult, Value, WordSize};
 pub type MemoryId = u32;
 use sp_wasm_interface::Function;
 

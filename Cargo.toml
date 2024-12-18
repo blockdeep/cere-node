@@ -24,7 +24,7 @@ members = [
   "primitives",
   "runtime/cere",
   "runtime/cere-dev",
-	"node/runtime-interfaces",
+	"node/executor",
 
 ]
 resolver = "2"
@@ -189,6 +189,7 @@ cere-rpc = { path = "node/rpc" }
 cere-runtime = { path = "runtime/cere" }
 cere-runtime-common = { path = "runtime/common", default-features = false }
 cere-runtime-interfaces = { path = "node/runtime-interfaces" }
+cere-executor = { path = "node/executor" }
 cere-service = { path = "node/service" }
 ddc-primitives = { path = "primitives", default-features = false }
 pallet-chainbridge = { path = "pallets/chainbridge", default-features = false }
