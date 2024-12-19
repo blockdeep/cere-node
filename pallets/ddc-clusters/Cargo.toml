@@ -38,7 +38,6 @@ pallet-insecure-randomness-collective-flip = { workspace = true, default-feature
 pallet-timestamp = { workspace = true, default-features = true }
 sp-io = { workspace = true, default-features = true }
 sp-tracing = { workspace = true, default-features = true }
-substrate-test-utils = { workspace = true, default-features = true }
 
 [features]
 default = ["std"]

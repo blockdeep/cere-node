@@ -13,7 +13,6 @@ repository.workspace = true
 cere-runtime-common = { workspace = true }
 codec = { workspace = true }
 scale-info = { workspace = true }
-serde = { workspace = true }
 
 # Substrate dependencies
 frame-benchmarking = { workspace = true, optional = true }

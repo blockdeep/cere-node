@@ -29,7 +29,6 @@ sc-consensus-grandpa = { workspace = true }
 sc-consensus-slots = { workspace = true }
 sc-executor = { workspace = true }
 sc-network = { workspace = true }
-sc-network-common = { workspace = true }
 sc-offchain = { workspace = true }
 sc-rpc = { workspace = true }
 sc-service = { workspace = true }
@@ -47,8 +46,6 @@ sp-core = { workspace = true }
 sp-runtime = { workspace = true }
 sp-timestamp = { workspace = true }
 sp-transaction-storage-proof = { workspace = true }
-sp-trie = { workspace = true }
-sp-externalities = { workspace = true }
 
 # Cere dependencies
 cere-client = { workspace = true, optional = true }
@@ -57,9 +54,6 @@ cere-runtime-common = { workspace = true, optional = true }
 
 cere-dev-runtime = { workspace = true, optional = true }
 cere-runtime = { workspace = true, optional = true }
-
-cere-executor = { workspace = true }
-cere-runtime-interfaces = { workspace = true }
 
 [features]
 default = ["cere-native"]
